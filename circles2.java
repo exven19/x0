@@ -1,7 +1,7 @@
 //// Wild circles #2.
-String title=  "Click for another circle.";
-String subtitle=  "Press any key to erase.";
-String author=  "Bruce Alan Martin";
+String title=  "Let's GO.";
+String subtitle=  "Keep Playing.";
+String author=  "Nayeem";
 
 // GLOBAL VARIABLES //
 float x,y;
@@ -9,16 +9,16 @@ int h,w;
 
 // Setup:  screen size, initialization. //
 void setup() {
-  size(500, 500);
+  size(1080, 720);
   x=  width/2;
   y=  height/2;
-  w=  80;          // width of ellipse.
-  h=  80;          // height of ellipse
+  w=  180;          // width of ellipse.
+  h=  180;          // height of ellipse
 }
 
 // Next frame. //
 void draw() {
-  text( title, 10, 10 );
+  text( title, 110, 50 );
   text( subtitle, width/2, 10 );
   text( author, 10, height-10 );
   text( w+"x"+h, width/2,height-10 );
